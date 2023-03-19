@@ -11,7 +11,7 @@ import DespreNoi from './pages/DespreNoi'
 function App() {
   return(
     <>
-      <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />

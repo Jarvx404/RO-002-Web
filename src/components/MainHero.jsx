@@ -23,12 +23,12 @@ function MainHero(){
     }, [])
 
     return(
-        <div className="hero min-h-screen" style={{ backgroundImage: `url(${heroImage})`}}>
+        <div className="hero min-h-screen min-w-fi object-covert" style={{ backgroundImage: `url(${heroImage})`}}>
         <div className="hero-overlay bg-opacity-70"></div>
 
         <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-7xl">
-                    <h1 className="mb-7 text-7xl font-bold">
+                    <h1 className="mb-7 lg:text-8xl text-6xl font-bold text-white">
                         Harambe Cartel
                     </h1>
 
