@@ -6,8 +6,14 @@ import { useNavigate } from "react-router-dom";
 import heroImage1 from '../assets/nationala/harambe-flag.jpg'
 import heroImage2 from '../assets/nationala/harambe-teaborgs.jpg'
 import heroImage3 from '../assets/nationala/harambe-strada.jpg'
+import heroImage4 from '../assets/nationala/harambe-stand.jpg'
+import heroImage5 from '../assets/nationala/harambe-tudor-tups.jpg'
+import heroImage6 from '../assets/nationala/harambe-games2.jpg'
+import heroImage7 from '../assets/nationala/harambe-games3.jpg'
+import heroImage8 from '../assets/nationala/harambe-games4.jpg'
+import heroImage9 from '../assets/nationala/harambe-games.jpg'
 
-const heroImagesArray = [heroImage1, heroImage2, heroImage3]
+const heroImagesArray = [heroImage1, heroImage2, heroImage3, heroImage4, heroImage5, heroImage6, heroImage7, heroImage8, heroImage9]
 function MainHero(){
     const navigate = useNavigate();
     
