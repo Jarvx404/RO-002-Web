@@ -51,11 +51,6 @@ function MainHero(){
                         multiTextDelay={1000}
                         typeSpeed={30}
                     />
-         
-                
-
-                    
-                    
                     <button className="btn btn-primary mt-5" onClick={() => {navigate("/despre-noi")}}>Despre noi</button>
                 </div>
             </div>
