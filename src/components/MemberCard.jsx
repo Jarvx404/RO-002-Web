@@ -13,8 +13,8 @@ function MemberCard(props){
    
 
     return(
-    <div className="lg:mr-[1.5vw] lg:ml-[1.5vw] mb-[1.5vw] mt-[1.5vw] card w-96 bg-base-300 shadow-xl scale-100 hover:scale-105 hover:drop-shadow-[0px_0px_35px_rgba(0,0,0,0.25)] transition-all">
-        <figure><img src={props.src} alt={props.alt}/></figure>
+    <div className="lg:mr-[1.5vw] lg:ml-[1.5vw] mb-[2vw] mt-[2vw] card w-96 bg-base-300 shadow-xl scale-100 hover:scale-105 hover:drop-shadow-[0px_0px_35px_rgba(0,0,0,0.25)] transition-all">
+        <figure><img src={props.src} alt={props.name}/></figure>
         <div className="card-body">
             <h2 className="card-title text-2xl">
                 {props.name}

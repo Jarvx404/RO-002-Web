@@ -10,15 +10,22 @@ function HarambeNavbar(){
     
     const navigate = useNavigate();
     
-    const logoConfetti = new JSConfetti()
+    const homeConfetti = new JSConfetti()
+    const membriConfetti = new JSConfetti();
 
     const summonLogoConfetti = () => {
-    logoConfetti.addConfetti({
+    homeConfetti.addConfetti({
         emojis: ['🐒', '🍌', '💛', '💙'],
         emojiSize: 30,
         confettiNumber: 50,
-    })
-    }   
+    })}   
+
+    const summonMembriConfetti = () =>{
+    membriConfetti.addConfetti({
+        emojis: ['🤝', '❤️', '🫂', '💙'],
+        emojiSize: 30,
+        confettiNumber: 50,
+    })}
     
     //------ theme setting ------
 
@@ -43,9 +50,13 @@ function HarambeNavbar(){
       }, [theme]);
     
     // ------ return ------
-    const conffetiHome = () => {
+    const navHome = () => {
         summonLogoConfetti()
         navigate("/home")
+    }
+    const navMembri = () => {
+        summonMembriConfetti();
+        navigate("/membri")
     }
     return(
     <>
@@ -53,11 +64,11 @@ function HarambeNavbar(){
     <div className="hidden lg:block">
         <div className="navbar bg-base-200 ">
         <button onClick={()=>{
-            conffetiHome()
+            navHome()
     }}><img src={lte} className="ml-2" width={"30rem"} id="navLogo"></img></button>
   <div className="flex-1">
     <button onClick={()=>{
-     conffetiHome()
+     navHome()
     }}><p className="btn btn-ghost normal-case text-2xl">Harambe Cartel</p></button>
   </div>
   <div className="flex-none">
@@ -71,7 +82,7 @@ function HarambeNavbar(){
                 </p>
                 <ul className="p-2 bg-base-200 text-lg">
                     <li><p onClick={() => {navigate("/despre-noi")}}>Despre Noi</p></li>
-                    <li><p>Membri</p></li>
+                    <li><p onClick={() => {navMembri()}}>Membri</p></li>
                     <li><p>Premii</p></li>
                 </ul>
             </li>

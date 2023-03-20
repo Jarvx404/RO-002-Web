@@ -15,7 +15,7 @@ function MaiMulteDetalii(){
             Et amet sint ipsam exercitationem. Et ut sunt non. Numquam unde et id harum eligendi fugit tempore voluptatum error. Numquam aliquid eum aut. Aliquam accusantium quis necessitatibus iusto officiis et odit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel necessitatibus voluptatum cum. Voluptate reiciendis ab maxime officia suscipit obcaecati quos similique culpa quidem, laboriosam veniam magnam, nihil, omnis cumque nam!
             </p>
 
-            <div class="carousel w-full rounded-3xl">
+            <div class="carousel w-full rounded-3xl mb-[8vh]">
             <div id="slide1" class="carousel-item relative w-full">
                 <img src={carouselImage1} class="w-full object-cover" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
