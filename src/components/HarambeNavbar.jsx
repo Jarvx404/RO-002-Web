@@ -76,17 +76,16 @@ function HarambeNavbar(){
             <li onClick={() => {navigate("/home")}}><p className="text-lg">Home</p></li>
             <li><p className="text-lg" onClick={() => {navigate("/sponsori")}}>Sponsori</p></li>
             <li tabIndex={0}>
-                <p className="text-lg">
+                <p className="text-lg" onClick={() => {navigate("/despre-noi")}}>
                     Echipa
                     <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                 </p>
                 <ul className="p-2 bg-base-200 text-lg">
                     <li><p onClick={() => {navigate("/despre-noi")}}>Despre Noi</p></li>
                     <li><p onClick={() => {navMembri()}}>Membri</p></li>
-                    <li><p>Premii</p></li>
                 </ul>
             </li>
-                <li><a className="text-lg">Resurse</a></li>
+                
             <li>
             
 
@@ -105,20 +104,17 @@ function HarambeNavbar(){
 
 
     <div className="bottomNav lg:hidden block">
-        <div className="btm-nav">
+        <div className="btm-nav bg-base-300">
             <button>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
-                <span className="btm-nav-label">Home</span>
+                <span className="btm-nav-label  hover:text-xl hover:text-purple-500 transition-all" onClick={()=>{navHome()}}>Home</span>
             </button>
 
-            <button className="active">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                <span className="btm-nav-label">Warnings</span>
+            <button  onClick={()=>{navigate("/despre-noi")}}>
+                <span className="btm-nav-label hover:text-xl hover:text-purple-500 transition-all">Despre noi</span>
             </button>
 
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
-                <span className="btm-nav-label">Statics</span>
+            <button onClick={()=>{navigate("/sponsori")}}>
+                <span className="btm-nav-label  hover:text-xl hover:text-purple-500 transition-all">Sponsori</span>
             </button>
         </div>
     </div>

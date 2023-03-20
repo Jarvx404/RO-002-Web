@@ -44,15 +44,18 @@ function MainHero(){
 
                 <TypeWriterEffect
                         textStyle={{
-                            fontSize: '1.5em',
+                            fontSize: '2em',
                         }}
                         startDelay={2000}
                         cursorColor="#3F3D56"
                         multiText={[
-                          'Going bananas!',
+                          'Going bananas! 🍌',
+                          'Apes together strong! 🐒',
+                          'Tubulara',
+                          'Da cheia de 7 🔧'
                         ]}
-                        multiTextDelay={1000}
-                        typeSpeed={30}
+                        multiTextDelay={10000}
+                        typeSpeed={15}
                     />
                     <button className="btn btn-primary mt-5" onClick={() => {navigate("/despre-noi")}}>Despre noi</button>
                 </div>
