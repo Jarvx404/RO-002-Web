@@ -11,7 +11,7 @@ function HarambeNavbar(){
     const navigate = useNavigate();
     
     const homeConfetti = new JSConfetti()
-    const membriConfetti = new JSConfetti();
+    const membriConfetti = new JSConfetti();1
 
     const summonLogoConfetti = () => {
     homeConfetti.addConfetti({

@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Sponsori from './pages/Sponsori'
 import DespreNoi from './pages/DespreNoi'
 import Membri from "./pages/Membri";
+import Resurse from "./pages/Resurse";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="sponsori" element={<Sponsori />} />
           <Route path="despre-noi" element={<DespreNoi />} />
           <Route path="membri" element={<Membri/>}/>
+          <Route path="resurse" element={<Resurse/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

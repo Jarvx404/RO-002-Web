@@ -18,7 +18,7 @@ function MemberCard(props){
         <div className="card-body">
             <h2 className="card-title text-2xl">
                 {props.name}
-                <div className={`${props.badgeType} badge empty:invisible>`}>{props.status}</div>
+                <div className={`${props.badgeType} badge empty:invisible`}>{props.status}</div>
             </h2>
             <p className="text-l">{props.text}</p>
             <div className="card-actions justify-start">

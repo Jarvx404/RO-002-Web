@@ -42,9 +42,6 @@ function MainHero(){
                         Harambe Cartel
                     </h1>
 
-
-
-       
                 <TypeWriterEffect
                         textStyle={{
                             fontSize: '1.5em',
