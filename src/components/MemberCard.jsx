@@ -1,4 +1,4 @@
-function MemberCard(props){
+export default function MemberCard(props){
 
     //badges and deps may not be the best approach but dealine 
     
@@ -31,5 +31,3 @@ function MemberCard(props){
     </div>
     )
 }
-
-export default MemberCard

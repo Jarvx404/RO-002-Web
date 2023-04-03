@@ -1,7 +1,7 @@
 import resImage from '../assets/nationala/harambe-tudor.jpg'
 
 
-function ResurseHero(){
+export default function ResurseHero(){
     return(
     <>
         
@@ -19,4 +19,3 @@ function ResurseHero(){
     )
 }
 
-export default ResurseHero

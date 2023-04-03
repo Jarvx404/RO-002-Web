@@ -6,7 +6,7 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 
 
-function HarambeNavbar(){
+export default function HarambeNavbar(){
     
     const navigate = useNavigate();
     
@@ -103,7 +103,7 @@ function HarambeNavbar(){
     </div>
 
 
-    <div className="bottomNav lg:hidden block">
+    <div className="bottomNav lg:hidden block z-30">
         <div className="btm-nav bg-base-300">
             <button>
                 <span className="btm-nav-label  hover:text-xl hover:text-purple-500 transition-all" onClick={()=>{navHome()}}>Home</span>
@@ -124,5 +124,3 @@ function HarambeNavbar(){
         
     )
 }
-
-export default HarambeNavbar

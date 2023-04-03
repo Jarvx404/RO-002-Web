@@ -8,9 +8,10 @@ import Sponsori from './pages/Sponsori'
 import DespreNoi from './pages/DespreNoi'
 import Membri from "./pages/Membri";
 import Resurse from "./pages/Resurse";
+import Premii from "./pages/Premii";
 
 
-function App() {
+export default function App() {
   return(
     <>
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
           <Route path="despre-noi" element={<DespreNoi />} />
           <Route path="membri" element={<Membri/>}/>
           <Route path="resurse" element={<Resurse/>}/>
+          <Route path="premii" element={<Premii/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
@@ -52,4 +54,3 @@ function App() {
     </>
   )
 }
-export default App

@@ -2,7 +2,7 @@ import HarambeFooter from "../components/HarambeFooter"
 import HarambeNavbar from "../components/HarambeNavbar"
 import MainHero from "../components/MainHero"
 
-function Home(){
+export default function Home(){
     return(
         <>
             <HarambeNavbar></HarambeNavbar>
@@ -10,6 +10,4 @@ function Home(){
             <HarambeFooter></HarambeFooter>
         </>
     )
-}
-
-export default Home
+}1

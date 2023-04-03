@@ -4,17 +4,14 @@ import MembriHero from "../components/MembriHero"
 import MembriPage from "../components/MembriPage"
 
 
-function Membri(){
+export default function Membri(){
     return(
     <>
         <HarambeNavbar></HarambeNavbar>
-        <div className='flex flex-col'>
-            <MembriHero></MembriHero>
-            <MembriPage></MembriPage>
-        </div>
+        <MembriHero></MembriHero>
+        <MembriPage></MembriPage>
         <HarambeFooter></HarambeFooter>
     </>
     )
 }
 
-export default Membri

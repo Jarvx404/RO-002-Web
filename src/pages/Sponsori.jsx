@@ -2,7 +2,7 @@ import HarambeFooter from "../components/HarambeFooter"
 import HarambeNavbar from "../components/HarambeNavbar"
 import SponsoriHero from "../components/SponsoriHero"
 
-function Sponsori(){
+export default function Sponsori(){
     return(
         <>
             <HarambeNavbar></HarambeNavbar>
@@ -12,4 +12,3 @@ function Sponsori(){
     )
 }
 
-export default Sponsori

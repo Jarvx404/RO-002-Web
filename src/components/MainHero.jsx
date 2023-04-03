@@ -17,7 +17,7 @@ import heroImage8 from '../assets/nationala/harambe-games4.jpg'
 import heroImage9 from '../assets/nationala/harambe-games.jpg'
 
 const heroImagesArray = [heroImage1, heroImage2, heroImage3, heroImage4, heroImage5, heroImage6, heroImage7, heroImage8, heroImage9]
-function MainHero(){
+export default function MainHero(){
     const navigate = useNavigate();
     
     const [heroImage, setHeroImage] = useState(heroImage1)
@@ -37,7 +37,7 @@ function MainHero(){
 
         <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-7xl flex flex-col align-middle justify-center items-center">
-                    <img src={ltw} className="w-[10rem] mb-[2rem]" alt="" />
+                    <btn onClick=""><img src={ltw} className="w-[10rem] mb-[2rem] hover:scale-110 hover:drop-shadow-[0px_0px_35px_rgba(0,0,0,0.25)] transition-all" alt="" /></btn>
                     <h1 className="mb-7 lg:text-8xl text-6xl font-bold text-white">
                         Harambe Cartel
                     </h1>
@@ -66,4 +66,3 @@ function MainHero(){
     
 }
 
-export default MainHero

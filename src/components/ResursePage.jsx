@@ -1,5 +1,5 @@
 
-function ResursePage(){
+export default function ResursePage(){
     //JSON-ify members
     return(
         <div className='cards-wrapper flex flex-col w-[100%] h-[100vh] mt-[15vh] items-center'>
@@ -15,6 +15,4 @@ function ResursePage(){
         </div>
     )
 }
-
-export default ResursePage
 

@@ -3,7 +3,7 @@ import HarambeNavbar from "../components/HarambeNavbar"
 import ResurseHero from "../components/ResurseHero"
 import ResursePage from "../components/ResursePage"
 
-function Resurse(){
+export default function Resurse(){
     return(
     <>
         <HarambeNavbar></HarambeNavbar>
@@ -14,5 +14,3 @@ function Resurse(){
     )
 
 }
-
-export default Resurse

@@ -6,7 +6,7 @@ import DespreNoiHero from "../components/DespreNoiHero";
 import MaiMulteDetalii from "../components/MaiMulteDetalii";
 
 
-function DespreNoi(){
+export default function DespreNoi(){
     const navigate = useNavigate();
 
     return(
@@ -19,4 +19,3 @@ function DespreNoi(){
     )
 }
 
-export default DespreNoi
