@@ -1,7 +1,6 @@
 import ltw from "../assets/logo-t-white.png"
 
 import { useState, useEffect } from 'react';
-import TypeWriterEffect from 'react-typewriter-effect';
 import React from 'react'
 import { useNavigate } from "react-router-dom";
 
@@ -41,22 +40,6 @@ export default function MainHero(){
                     <h1 className="mb-7 lg:text-8xl text-6xl font-bold text-white">
                         Harambe Cartel
                     </h1>
-
-                <TypeWriterEffect
-                        textStyle={{
-                            fontSize: '2em',
-                        }}
-                        startDelay={2000}
-                        cursorColor="#3F3D56"
-                        multiText={[
-                          'Going bananas! 🍌',
-                          'Apes together strong! 🐒',
-                          'Tubulara',
-                          'Da cheia de 7 🔧'
-                        ]}
-                        multiTextDelay={10000}
-                        typeSpeed={15}
-                    />
                     <button className="btn btn-primary mt-5" onClick={() => {navigate("/despre-noi")}}>Despre noi</button>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import HarambeFooter from "../components/HarambeFooter"
 import HarambeNavbar from "../components/HarambeNavbar"
 
-import { useNavigate } from "react-router-dom";
+import  {useNavigate}  from "react-router-dom";
 import DespreNoiHero from "../components/DespreNoiHero";
 import MaiMulteDetalii from "../components/MaiMulteDetalii";
 

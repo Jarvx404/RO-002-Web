@@ -1,7 +1,7 @@
 import ltw from "../assets/logo-t-white.png"
 
 
-export default function HarambeFooter(){
+function HarambeFooter(){
   return(
     <footer className="footer footer-center p-1 bg-base-300 text-base-content footer-position fixed bottom-0 opacity-60 invisible lg:visible">
       <div>
@@ -10,5 +10,7 @@ export default function HarambeFooter(){
     </footer>
   )
 }
+
+export default HarambeFooter
 
 
