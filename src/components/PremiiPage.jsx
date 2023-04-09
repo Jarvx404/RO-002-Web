@@ -2,7 +2,7 @@ import roverRuckusLogo from "../assets/seasons/rr.png"
 import relicRecvoeryLogo from "../assets/seasons/relic.png"
 import skyStoneLogo from "../assets/seasons/sky.png"
 
-function PremiiPage(){
+export default function PremiiPage(){
     return(
         <div className="w-full h-[120vh]">
             <div className="w-full h-[45%] bg-secondary flex  lg:flex-row flex-col justify-center items-center">
@@ -22,4 +22,4 @@ function PremiiPage(){
 }
 
 
-export default function PremiiPage()
+
