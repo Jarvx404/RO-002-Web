@@ -10,4 +10,4 @@ export default function Home(){
             <HarambeFooter></HarambeFooter>
         </>
     )
-}1
+}
